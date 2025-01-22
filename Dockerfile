@@ -10,4 +10,4 @@ COPY target/ /app/
 EXPOSE 8080
 
 # Chạy ứng dụng Spring Boot
-ENTRYPOINT ["java", "-jar", "your-application.jar"]
+ENTRYPOINT ["java", "-jar", "image-thumbnail.jar"]
